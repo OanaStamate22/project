@@ -12,8 +12,7 @@ angular.module('projectApp')
 
     console.log("Register Controller");
     $scope.valid = false;
-    $scope.register = function () {
-
+    $scope.registerButton = function () {
       $scope.valid = true;
     };
   });

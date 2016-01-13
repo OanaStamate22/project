@@ -10,12 +10,17 @@
 angular.module('projectApp')
   .controller('LoginCtrl', function ($scope, $location) {
 
+
     $scope.goToRegister = function(){
 
       $location.path('/register');
+    };
 
+    $scope.loginButton = function(){
 
+      $location.path('/home');
     }
+
 
 
   });
